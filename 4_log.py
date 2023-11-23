@@ -79,12 +79,16 @@ result = v0 or v1
 # elif a == 0:
 #     print('это золотая середина')
 
-count = 1
+a = 350
 
-if count < 10:
-    print('A')
-if count < 20:
-    print('B')
-if count < 30:
-    print('C')
+if a / int(a * 0.5) == 2:
+    print('четное число')
+if a  / int(a * 0.5) < 2:
+    print('нечетное число')
+if a / int(a * 0.5) > 2:
+    print('нечетное число')
+# if a == 1:
+#     print('нечетное число')
+# if a == 0:
+#     print('это же ноль')
 
